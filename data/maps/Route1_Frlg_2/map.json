@@ -1,11 +1,11 @@
 {
-  "id": "MAP_ROUTE1",
-  "name": "Route1_Frlg",
-  "layout": "LAYOUT_ROUTE1",
+  "id": "MAP_ROUTE1_FRLG_2",
+  "name": "Route1_Frlg_2",
+  "layout": "LAYOUT_ROUTE1_FRLG_2",
   "music": "MUS_RG_ROUTE1",
   "region_map_section": "MAPSEC_ROUTE_1",
   "requires_flash": false,
-  "weather": "WEATHER_SUNNY",
+  "weather": "WEATHER_SUNNY_CLOUDS",
   "map_type": "MAP_TYPE_ROUTE",
   "allow_cycling": true,
   "allow_escaping": false,
@@ -15,12 +15,7 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_VIRIDIAN_CITY",
-      "offset": -12,
-      "direction": "up"
-    },
-    {
-      "map": "MAP_PALLET_TOWN",
+      "map": "MAP_PALLET_TOWN_FRLG_2",
       "offset": 0,
       "direction": "down"
     }
