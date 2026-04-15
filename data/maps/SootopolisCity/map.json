@@ -11,11 +11,13 @@
   "allow_escaping": false,
   "allow_running": true,
   "show_map_name": true,
+  "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": [],
+  "connections": null,
   "object_events": [
     {
       "local_id": "LOCALID_SOOTOPOLIS_EXPERT",
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
       "x": 31,
       "y": 18,
@@ -30,6 +32,7 @@
     },
     {
       "local_id": "LOCALID_SOOTOPOLIS_WOMAN_2",
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_4",
       "x": 47,
       "y": 33,
@@ -44,6 +47,7 @@
     },
     {
       "local_id": "LOCALID_KIRI",
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_GIRL_2",
       "x": 9,
       "y": 43,
@@ -58,6 +62,7 @@
     },
     {
       "local_id": "LOCALID_SOOTOPOLIS_NINJA_BOY",
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_NINJA_BOY",
       "x": 51,
       "y": 14,
@@ -72,6 +77,7 @@
     },
     {
       "local_id": "LOCALID_SOOTOPOLIS_BOY_1",
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BOY_1",
       "x": 43,
       "y": 26,
@@ -85,6 +91,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MAN_1",
       "x": 26,
       "y": 4,
@@ -99,6 +106,7 @@
     },
     {
       "local_id": "LOCALID_SOOTOPOLIS_STEVEN",
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_STEVEN",
       "x": 20,
       "y": 36,
@@ -113,6 +121,7 @@
     },
     {
       "local_id": "LOCALID_SOOTOPOLIS_WOMAN_1",
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
       "x": 49,
       "y": 34,
@@ -127,6 +136,7 @@
     },
     {
       "local_id": "LOCALID_SOOTOPOLIS_GROUDON",
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_GROUDON_SIDE",
       "x": 28,
       "y": 44,
@@ -141,6 +151,7 @@
     },
     {
       "local_id": "LOCALID_SOOTOPOLIS_KYOGRE",
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_KYOGRE_SIDE",
       "x": 34,
       "y": 44,
@@ -155,6 +166,7 @@
     },
     {
       "local_id": "LOCALID_SOOTOPOLIS_RAYQUAZA",
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_RAYQUAZA",
       "x": 31,
       "y": 41,
@@ -169,6 +181,7 @@
     },
     {
       "local_id": "LOCALID_SOOTOPOLIS_MANIAC",
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MANIAC",
       "x": 17,
       "y": 44,
@@ -183,6 +196,7 @@
     },
     {
       "local_id": "LOCALID_SOOTOPOLIS_GIRL",
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
       "x": 14,
       "y": 42,
@@ -197,6 +211,7 @@
     },
     {
       "local_id": "LOCALID_SOOTOPOLIS_BLACK_BELT",
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
       "x": 17,
       "y": 40,
@@ -211,6 +226,7 @@
     },
     {
       "local_id": "LOCALID_SOOTOPOLIS_BOY_2",
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BOY_2",
       "x": 19,
       "y": 37,
@@ -225,6 +241,7 @@
     },
     {
       "local_id": "LOCALID_SOOTOPOLIS_MAXIE",
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MAXIE",
       "x": 29,
       "y": 33,
@@ -239,6 +256,7 @@
     },
     {
       "local_id": "LOCALID_SOOTOPOLIS_ARCHIE",
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ARCHIE",
       "x": 31,
       "y": 33,
@@ -253,6 +271,7 @@
     },
     {
       "local_id": "LOCALID_SOOTOPOLIS_WALLACE",
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WALLACE",
       "x": 31,
       "y": 18,

@@ -1,0 +1,15 @@
+script Cinderalla {
+	lock
+    faceplayer
+    if (!flag(FLAG_PALLET_TOWN_CINDERELLA_GIFTED_ENTEI)){
+        msgbox("Hi, I'm Cinderella! I have a gift for you!
+                Please accept my Entei!")
+        givemon (SPECIES_ENTEI, 5)
+        setflag(FLAG_PALLET_TOWN_CINDERELLA_GIFTED_ENTEI)
+    }
+    else {
+        msgbox("Good luck with your Entei!")
+    }
+    release
+    end
+}

@@ -11,6 +11,7 @@
   "allow_escaping": false,
   "allow_running": true,
   "show_map_name": true,
+  "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
@@ -26,6 +27,7 @@
   ],
   "object_events": [
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
       "x": 16,
       "y": 8,
@@ -40,6 +42,7 @@
     },
     {
       "local_id": "LOCALID_ROUTE101_BIRCH",
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PROF_BIRCH",
       "x": 9,
       "y": 13,
@@ -53,6 +56,7 @@
       "flag": "FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BIRCHS_BAG",
       "x": 7,
       "y": 14,
@@ -67,6 +71,7 @@
     },
     {
       "local_id": "LOCALID_ROUTE101_ZIGZAGOON",
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ZIGZAGOON_1",
       "x": 10,
       "y": 13,
@@ -80,6 +85,7 @@
       "flag": "FLAG_HIDE_ROUTE_101_ZIGZAGOON"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_PROF_BIRCH",
       "x": 5,
       "y": 11,
@@ -93,6 +99,7 @@
       "flag": "FLAG_HIDE_ROUTE_101_BIRCH"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_BOY_2",
       "x": 2,
       "y": 13,

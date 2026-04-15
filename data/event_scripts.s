@@ -1739,3 +1739,6 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 
 	.include "data/maps/Route1_Frlg_2/scripts.inc"
 	.include "data/maps/Route1_Frlg_2/text.inc"
+
+	.include "data/maps/PalletTown_Frlg_2/scripts.inc"
+	.include "data/maps/PalletTown_Frlg_2/text.inc"
