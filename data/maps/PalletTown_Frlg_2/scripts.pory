@@ -1,14 +1,27 @@
-script Cinderalla {
+mapscripts PalletTown_Frlg_2_MapScripts {
+}
+
+script Cinderella {
 	lock
     faceplayer
-    if (!flag(FLAG_PALLET_TOWN_CINDERELLA_GIFTED_ENTEI)){
-        msgbox("Hi, I'm Cinderella! I have a gift for you!
+    if (!flag(FLAG_VISITED_OAKS_LAB)){
+        msgbox("Hi, I'm Cinderella!
+                I'm going to give you something overpowered.
+                
+                Come talk to me when you have a Pokedex!")
+    }
+    else {
+        if (!flag(FLAG_PALLET_TOWN_CINDERELLA_GIFTED_ENTEI)){
+        msgbox("Hi, I'm Cinderella! 
+                I have a gift for you!
+                
                 Please accept my Entei!")
         givemon (SPECIES_ENTEI, 5)
         setflag(FLAG_PALLET_TOWN_CINDERELLA_GIFTED_ENTEI)
-    }
-    else {
+        }
+        else {
         msgbox("Good luck with your Entei!")
+        }
     }
     release
     end

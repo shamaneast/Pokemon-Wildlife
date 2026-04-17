@@ -70,6 +70,20 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
       "flag": "FLAG_HIDE_OAK_IN_PALLET_TOWN"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_DITTO_DOLL",
+      "x": 9,
+      "y": 10,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
     }
   ],
   "warp_events": [
@@ -93,6 +107,14 @@
       "elevation": 0,
       "dest_map": "MAP_PALLET_TOWN_PROFESSOR_OAKS_LAB",
       "dest_warp_id": "0"
+    },
+    {
+      "warp_id": "test_pallet1",
+      "x": 10,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_PALLET_TOWN_FRLG_2",
+      "dest_warp_id": "test_pallet2"
     }
   ],
   "coord_events": [

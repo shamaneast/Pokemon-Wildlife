@@ -5,7 +5,7 @@
   "music": "MUS_RG_PALLET",
   "region_map_section": "MAPSEC_PALLET_TOWN",
   "requires_flash": false,
-  "weather": "WEATHER_UNDERWATER",
+  "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_TOWN",
   "allow_cycling": true,
   "allow_escaping": false,
@@ -65,6 +65,20 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
       "flag": "FLAG_HIDE_OAK_IN_PALLET_TOWN"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_RAIKOU",
+      "x": 9,
+      "y": 10,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
     }
   ],
   "warp_events": [
@@ -86,14 +100,22 @@
       "x": 16,
       "y": 13,
       "elevation": 0,
-      "dest_map": "MAP_PALLET_TOWN_PROFESSOR_OAKS_LAB",
+      "dest_map": "MAP_PALLET_TOWN_PROFESSOR_OAKS_LAB_FRLG_2",
       "dest_warp_id": "0"
+    },
+    {
+      "warp_id": "test_pallet2",
+      "x": 10,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_PALLET_TOWN",
+      "dest_warp_id": "test_pallet1"
     }
   ],
   "coord_events": [
     {
       "type": "trigger",
-      "x": 11,
+      "x": 12,
       "y": 1,
       "elevation": 3,
       "var": "VAR_MAP_SCENE_PALLET_TOWN_OAK",
@@ -102,8 +124,8 @@
     },
     {
       "type": "trigger",
-      "x": 14,
-      "y": 0,
+      "x": 13,
+      "y": 1,
       "elevation": 3,
       "var": "VAR_MAP_SCENE_PALLET_TOWN_OAK",
       "var_value": "0",
@@ -111,8 +133,8 @@
     },
     {
       "type": "trigger",
-      "x": 14,
-      "y": 1,
+      "x": 13,
+      "y": 2,
       "elevation": 3,
       "var": "VAR_TEMP_2",
       "var_value": "1",
