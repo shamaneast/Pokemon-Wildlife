@@ -11,10 +11,12 @@
   "allow_escaping": true,
   "allow_running": true,
   "show_map_name": true,
+  "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": null,
   "object_events": [
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MAN_3",
       "x": 33,
       "y": 22,
@@ -28,6 +30,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
       "x": 6,
       "y": 15,
@@ -41,6 +44,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MAN_3",
       "x": 27,
       "y": 34,
@@ -55,6 +59,7 @@
     },
     {
       "local_id": "LOCALID_VICTORY_ROAD_ENTRANCE_WALLY",
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WALLY",
       "x": 12,
       "y": 25,
@@ -68,6 +73,7 @@
       "flag": "FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 40,
       "y": 26,
@@ -81,6 +87,7 @@
       "flag": "FLAG_ITEM_VICTORY_ROAD_1F_MAX_ELIXIR"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 37,
       "y": 39,
@@ -94,6 +101,7 @@
       "flag": "FLAG_ITEM_VICTORY_ROAD_1F_PP_UP"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WALLY",
       "x": 31,
       "y": 9,
@@ -107,6 +115,7 @@
       "flag": "FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
       "x": 29,
       "y": 17,
@@ -120,6 +129,7 @@
       "flag": "0"
     },
     {
+      "type": "object",
       "graphics_id": "OBJ_EVENT_GFX_MAN_3",
       "x": 32,
       "y": 17,
@@ -197,7 +207,9 @@
       "y": 39,
       "elevation": 4,
       "item": "ITEM_ULTRA_BALL",
-      "flag": "FLAG_HIDDEN_ITEM_VICTORY_ROAD_1F_ULTRA_BALL"
+      "flag": "FLAG_HIDDEN_ITEM_VICTORY_ROAD_1F_ULTRA_BALL",
+      "quantity": 0,
+      "underfoot": false
     }
   ]
 }
