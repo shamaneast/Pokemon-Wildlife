@@ -100,6 +100,13 @@
       "elevation": 0,
       "dest_map": "MAP_FOREST_GRASS_PW",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 9,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_FOREST_GRASS_PW_2",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

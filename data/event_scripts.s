@@ -1739,3 +1739,6 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 
 	.include "data/maps/ForestGrass_PW/scripts.inc"
 	.include "data/maps/ForestGrass_PW/text.inc"
+
+	.include "data/maps/ForestGrass_PW_2/scripts.inc"
+	.include "data/maps/ForestGrass_PW_2/text.inc"
