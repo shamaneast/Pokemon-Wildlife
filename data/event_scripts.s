@@ -1708,7 +1708,7 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/text/trainers.inc"
 	.include "data/scripts/repel.inc"
 	.include "data/scripts/safari_zone.inc"
-	.include "data/scripts/roulette.inc"
+	.include "data/scrxipts/roulette.inc"
 	.include "data/scripts/pokedex_rating.inc"
 	.include "data/text/pokedex_rating.inc"
 	.include "data/text/lottery_corner.inc"
@@ -1740,11 +1740,5 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/maps/ForestGrass_PW/scripts.inc"
 	.include "data/maps/ForestGrass_PW/text.inc"
 
-	.include "data/maps/ForestGrass_PW_2/scripts.inc"
-	.include "data/maps/ForestGrass_PW_2/text.inc"
-
-	.include "data/maps/FOREST_BUG2_PW/scripts.inc"
-	.include "data/maps/FOREST_BUG2_PW/text.inc"
-
-	.include "data/maps/FOREST_BUG_PW/scripts.inc"
-	.include "data/maps/FOREST_BUG_PW/text.inc"
+	.include "data/maps/ForestGrass_PW_3/scripts.inc"
+	.include "data/maps/ForestGrass_PW_3/text.inc"

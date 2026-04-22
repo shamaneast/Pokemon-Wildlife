@@ -855,9 +855,7 @@
     "BirthIsland_Exterior_Frlg",
     "OneIsland_KindleRoad_EmberSpa_Frlg",
     "BirthIsland_Harbor_Frlg",
-    "NavelRock_Harbor_Frlg",
-    "FOREST_BUG_PW",
-    "FOREST_BUG2_PW"
+    "NavelRock_Harbor_Frlg"
   ],
   "gMapGroup_TownsAndRoutes_Frlg": [
     "PalletTown_Frlg",
@@ -1166,6 +1164,6 @@
   ],
   "gMapGroup_SpecialLocation": [
     "ForestGrass_PW",
-    "ForestGrass_PW_2"
+    "ForestGrass_PW_3"
   ]
 }
