@@ -24,6 +24,7 @@
 #include "link.h"
 #include "match_call.h"
 #include "metatile_behavior.h"
+#include "overworld_wild.h"
 #include "overworld.h"
 #include "pokemon.h"
 #include "safari_zone.h"
@@ -692,6 +693,8 @@ static bool8 TryStartStepBasedScript(struct MapPosition *position, u16 metatileB
         return TRUE;
     if (OnStep_DexNavSearch())
         return TRUE;
+    if (OverworldWild_OnStep())
+        return TRUE;
     return FALSE;
 }
 
@@ -888,6 +891,9 @@ void RestartWildEncounterImmunitySteps(void)
 
 static bool8 CheckStandardWildEncounter(u16 metatileBehavior)
 {
+    if (OverworldWild_UseVisibleEncounters())
+        return FALSE;
+
     if (FlagGet(OW_FLAG_NO_ENCOUNTER))
         return FALSE;
 
