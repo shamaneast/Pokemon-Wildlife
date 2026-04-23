@@ -57,6 +57,15 @@
                                                   // (You should not use 48x48 sprites/tables for compressed gfx)
                                                   // 16x32, 32x32, 64x64 etc are fine
 #define OW_MON_WANDER_WALK             TRUE       // If true, OW pokemon with MOVEMENT_TYPE_WANDER will walk-in-place in between steps.
+
+// Visible wild Pokémon (grass encounters shown in overworld)
+#define OW_VISIBLE_WILD_ENCOUNTERS          TRUE   // If TRUE, grass encounters use visible overworld Pokémon instead of random grass battles.
+#define OW_VISIBLE_WILD_MAX_ACTIVE          5      // Maximum number of visible wild Pokémon active at once.
+#define OW_VISIBLE_WILD_SPAWN_CHANCE        20     // Percent chance each step to attempt one new spawn.
+#define OW_VISIBLE_WILD_SPAWN_RADIUS        5      // Spawn search radius around the player.
+#define OW_VISIBLE_WILD_DESPAWN_STEPS       80     // Steps before a visible wild Pokémon despawns.
+#define OW_VISIBLE_WILD_DESPAWN_SECONDS     45     // Real-time seconds before a visible wild Pokémon despawns.
+#define OW_VISIBLE_WILD_LOCAL_ID_BASE       241    // Reserve [base, base + OW_VISIBLE_WILD_MAX_ACTIVE) local IDs for visible wilds.
 // Follower Pokémon
 #define OW_FOLLOWERS_ENABLED           TRUE      // Enables follower Pokémon, HGSS style. Requires OW_POKEMON_OBJECT_EVENTS. Note that additional scripting may be required for them to be fully supported!
 #define OW_FOLLOWERS_BOBBING           TRUE       // If TRUE, follower Pokémon will bob up and down during their idle & walking animations
