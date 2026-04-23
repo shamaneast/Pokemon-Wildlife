@@ -231,11 +231,3 @@ This creates a lively but not overcrowded field.
 
 ---
 
-## **14) Validation checklist (after implementation)**
-
-- Species frequencies match encounter table over large sample.
-- Never exceeds 5 active.
-- Collision always starts battle with correct species/level/shiny.
-- No random grass encounters occur while system active.
-- No crashes on map transitions/object pool pressure.
-- Shiny visual appears for shiny slots.
